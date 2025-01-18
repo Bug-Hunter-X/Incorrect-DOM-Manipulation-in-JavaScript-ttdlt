@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be visible.
+  </div>
+  <script>
+    //Correct way to select the element and modify it's content
+    document.getElementById('myDiv').textContent = "This text replaces the original text."; 
+  </script>
+</body>
+</html>
